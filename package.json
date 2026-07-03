@@ -1,0 +1,15 @@
+{
+  "name": "ai-coding-guide",
+  "version": "1.0.0",
+  "description": "Claude Code & Codex 中文教程本地阅读与写作开发环境",
+  "main": "reader.js",
+  "scripts": {
+    "dev": "browser-sync start --server --files \"index.html, reader.css, reader.js, codex/**/*.md, claude-code/**/*.md, vibecoding/**/*.md\" --port 8001 --no-notify"
+  },
+  "devDependencies": {
+    "browser-sync": "^3.0.3"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT"
+}
